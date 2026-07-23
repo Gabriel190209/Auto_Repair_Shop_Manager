@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d27eb804030f40df982777933c1e527f" Name="Diagram1">
+        <EntityTypeShape EntityType="dbReviziCarModel.Cliente" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbReviziCarModel.FormaPagamento" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbReviziCarModel.Funcionario" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbReviziCarModel.Marca" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbReviziCarModel.Modelo" Width="1.5" PointX="0.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbReviziCarModel.Servico" Width="1.5" PointX="0.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbReviziCarModel.StatusServico" Width="1.5" PointX="0.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbReviziCarModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbReviziCarModel.Venda" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Venda_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Venda_PrimeiroPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Venda_SegundoPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Venda_Atendente" ManuallyRouted="false" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Modelo_Marca" ManuallyRouted="false" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Venda_Marca" ManuallyRouted="false" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Venda_Modelo" ManuallyRouted="false" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Venda_Servico" ManuallyRouted="false" />
+        <AssociationConnector Association="dbReviziCarModel.FK_Venda_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
